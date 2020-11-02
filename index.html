@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Inline CSS</title>
+    <link rel="stylesheet" href="external.css">
+    <style>
+        .main {
+            text-align: center;
+        }
+
+        .GFG {
+            color: #009900;
+            font-size: 50px;
+            font-weight: bold;
+        }
+
+        .singleline {
+            font-style: bold;
+            font-size: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <h2 style="text-align: center;">INLINE CSS👇</h2>
+    <p style="color:#009; font-size:50px; 
+                font-style:italic; text-align:center;
+                font-weight: bold;">
+        This is how Inline Css Representation looks like,
+        css is added🎨
+    </p>
+    <div class="singleline">
+
+        Inline CSS contains the CSS property in the body section attached with element is known as inline CSS. This kind
+        of style is specified within an HTML tag using the style attribute.
+
+    </div>
+    <hr>
+    <div class="main">
+        <h2>INTERNAL CSS👇</h2>
+        <div class="GFG">This is how internal css looks like🎨</div>
+        <div class="singleline">
+            This can be used when a single HTML document must be styled uniquely. The CSS rule set should be within the
+            HTML file in the head section i.e the CSS is embedded within the HTML file.
+        </div>
+    </div>
+    <br>
+    <hr>
+    <div class="main">
+        <h2>EXTERNAL CSS👇</h2>
+        <div class="GFG">This is how External css looks like🎨</div>
+        <div id="geeks">
+            <div class="singleline">
+
+                CSS property written in a separate file with .css extension and should be linked to the HTML document
+                using link tag. This means that for each element, style can be set only once and that will be applied
+                across web pages.
+            </div>
+        </div>
+
+</body>
+
+</html>
